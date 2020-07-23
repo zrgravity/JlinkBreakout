@@ -17,9 +17,9 @@ Notes:
         * Pin-pin clearance: 2.22mm to 1.9mm
     + Standard 1.6mm (0.062") PCB should be solderable, but there will be a small gap, or 2mm (0.079") PCB would leave less clearance
 ![](frontV3.png)
-## [V3 - wire pads](V3 - wire pads/)
+## [V3 - wire pads](/V3-wire-pads/)
 - Solder jumpers to select voltage regulator output voltage
 - Wire solderable edge connection for SWD
     + Also compatible with standard 0.1" headers
 - Connector for power input to DUT (or access to output from regulator)
-![](V3 - wire pads/JlinkBreakout V3 - wire pads.png)
+![V3 - wire pads](/V3-wire-pads/JlinkBreakoutV3-wire-pads.png)
