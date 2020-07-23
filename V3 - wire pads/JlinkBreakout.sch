@@ -415,4 +415,28 @@ F 3 "~" H 4950 6300 50  0001 C CNN
 	1    4950 6300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5F1B8227
+P 7350 4900
+F 0 "J4" H 7430 4892 50  0000 L CNN
+F 1 "PWR_IN" H 7430 4801 50  0000 L CNN
+F 2 "0 - GIE Connectors, Terminal Blocks:conn_edge_PTH_2.54mm_2x5_02" H 7350 4900 50  0001 C CNN
+F 3 "~" H 7350 4900 50  0001 C CNN
+	1    7350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F1B8FC4
+P 7150 5000
+F 0 "#PWR01" H 7150 4750 50  0001 C CNN
+F 1 "GND" V 7155 4872 50  0000 R CNN
+F 2 "" H 7150 5000 50  0001 C CNN
+F 3 "" H 7150 5000 50  0001 C CNN
+	1    7150 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 7150 4900 0    50   Input ~ 0
+REF
 $EndSCHEMATC
