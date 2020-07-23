@@ -1,0 +1,13 @@
+(module "0 - GIE Connectors, Terminal Blocks:conn_edge_PTH_2.54mm_2x5_02" (layer F.Cu) (tedit 5F19AF2C)
+  (fp_text reference J4 (at 3.106007 2.306606 90) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PWR_IN (at 0.100001 4.3) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -2.27 3.3) (end 2.27 3.3) (layer Dwgs.User) (width 0.12))
+  (pad 1 smd roundrect (at -1.27 -1) (size 2 5) (drill (offset 0 1.8)) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
+  (pad 2 smd roundrect (at 1.27 -1) (size 2 5) (drill (offset 0 1.8)) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
+  (pad 1 thru_hole circle (at -1.27 -1) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 1.27 -1) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+)
