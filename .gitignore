@@ -6,3 +6,5 @@
 *.net
 *.dsn
 fp-info-cache
+
+V3-wire-pads/gerber/
